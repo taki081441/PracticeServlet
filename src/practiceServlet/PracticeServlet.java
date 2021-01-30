@@ -29,7 +29,7 @@ public class PracticeServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html; charset=UTF-8");
-        request.setCharacterEncoding("UTF-8");
+		request.setCharacterEncoding("UTF-8");
 		// TODO Auto-generated method stub
 		String jsp = "/WEB-INF/jsp/login.jsp";
 //		form に入力された値は HttpServletRequest#getParameterメソッドで取得できます。
@@ -53,5 +53,4 @@ public class PracticeServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
-
 }

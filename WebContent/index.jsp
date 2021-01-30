@@ -5,7 +5,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<script type="text/javascript" src="./js/hantei.js"></script>
 <title>一番目のファイル</title>
 </head>
 <body>
@@ -15,7 +14,7 @@
 入社を希望するものは以下に氏名、パスワードを入力し、送信ボタンを押下しろ。<br>
 よろ。<br>
 <br>
-<form action="first" method="post">
+<form action="first" method="post" id="submit1">
 氏名：<br>
 <input type="text" name="simei" id="name"/><br>
 パスワード：<br>
@@ -32,4 +31,5 @@
 
 
 </body>
+<script type="text/javascript" src="js/hantei.js"></script>
 </html>

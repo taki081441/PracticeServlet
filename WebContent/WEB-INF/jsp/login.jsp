@@ -4,7 +4,6 @@
 <html>
 <head>
 <title>なんでやねん</title>
-
 </head>
 <body>
 <% request.setCharacterEncoding("UTF-8"); %>
