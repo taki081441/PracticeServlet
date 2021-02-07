@@ -11,6 +11,7 @@
 <% String pass = (String)request.getAttribute("password"); %>
 とりあえずパスワード晒すわ<br>
 <% String favaritoJClub = (String)request.getAttribute("jteam"); %>
+<% String kawasaki = (String)request.getAttribute("jteamteams"); %>
 
 <%= aaa %>
 <%= pass %>
@@ -19,7 +20,13 @@
 
 <p>名前 : <%= aaa %></p>
 <p>パスワード : ★★★★</p>
+<% String checkpass = (String)request.getAttribute("err_messages"); %>
+<%= checkpass %>
 <p>好きなチーム : <%= favaritoJClub %></p>
+<p>俺たちの : <%= kawasaki %>
+
+
+
 
 GitHub試し
 

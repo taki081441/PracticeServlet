@@ -23,6 +23,15 @@
 <input type="password" name="cnfpass" id="cnfpass" autocomplete="off"/><br>
 好きなチーム：<br>
 <input type="text" name="jteam" id="j"/><br>
+
+<select name="aaa">
+	<option value="null"></option>
+	<option value="a">a</option>
+	<option value="b">b</option>
+	<option value="c">c</option>
+
+
+</select>
 <br><br>
 
 <input id="submit" type="submit" value="送信">
